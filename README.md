@@ -1,5 +1,4 @@
 # Numerical Integration Experiments
-_Berliner Hochschule für Technik – Numerik II project_
 
 This repo contains a small reproducible study of **composite trapezoidal-rule convergence** (and a few related quadrature tricks) carried out for the Numerik II module.  All code is pure Python; the results are shown in a Jupyter notebook and summarised in the accompanying PDF report.
 
