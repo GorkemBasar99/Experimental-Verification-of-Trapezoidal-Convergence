@@ -33,7 +33,7 @@ The notebook benchmarks three quadrature routines on two test functions
 
 ---
 
-### Function f₂  — tolerance \(10^{-3}\)
+### Function f₂  — tolerance $\(10^{-3}\)$
 
 <img src="images/f2_001.png" width="950">
 
