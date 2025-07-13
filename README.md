@@ -49,31 +49,3 @@ The notebook benchmarks three quadrature routines on two test functions
 
 *All errors are absolute; “evaluations” counts function calls.*
 
-
-
-
-## Repository layout
-
-| Path | Purpose |
-|------|---------|
-| `src/num_integ.py` | Re-usable quadrature routines (trapezoidal, adaptive, periodic variant, etc.) |
-| `notebooks/2.Project_Numerical Experiments.ipynb` | Step-by-step experiments, figures, error plots |
-| `report/Numerik_II___2_Project.pdf` | Final write-up turned in for assessment |
-| `tests/` | (empty) placeholder for future unit tests |
-
----
-
-## Quick start
-
-```bash
-# clone the repo
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-
-# set up Python environment
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\Activate.ps1
-pip install -r requirements.txt    # installs numpy, matplotlib, …
-
-# open the notebook
-jupyter notebook notebooks/2.Project_Numerical\ Experiments.ipynb
